@@ -175,11 +175,11 @@ aside > h1 {
 
 aside > h2 {
     color: white;
-    margin-right: 50px;
-    margin-left: 50px;
-    text-align: center;
     margin: auto;
     padding: auto;
+    background-color: linear gradient( to right, var(--cor3), var(--cor0) );
+    text-align: center;
+    transition-duration: 0.5s;
 }
 
 aside > h2 a {
