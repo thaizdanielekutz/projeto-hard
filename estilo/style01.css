@@ -13,7 +13,7 @@
     --cor3: #F55D0D;
     --cor4: #FA0F00;
     --cor5: #EB1805;
-    --cor6: #464B52;
+    --cor6: #4f545a;
     
 
     --font-padrão: Arial, Verdana, Helvetica, sans-serif;
@@ -171,29 +171,32 @@ aside {
     margin-bottom: 40px;
 }
 
-aside > h1 {
+aside > h3 {
     color: white;
     padding-bottom: 30px;
     padding-top: 10px;
     text-align: center;
+    font-size: 1.5em;
 }
 
-aside > h2 {
+aside > h4{
     color: white;
     margin: auto;
     padding: auto;
     background-color: linear gradient( to right, var(--cor3), var(--cor0) );
     text-align: center;
     transition-duration: 0.5s;
+    font-size: 1.2em;
 }
 
-aside > h2 a {
+
+aside > h4 a {
     color: white;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -202,7 +205,6 @@ aside > h2 a {
     font-size: 0.8em;
     max-width: 500px;
 }
-
 
 
 footer{
