@@ -123,12 +123,6 @@ main img{
     margin: auto;
 }
 
-main li{
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside; 
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
 
 main  a {
     color: black;

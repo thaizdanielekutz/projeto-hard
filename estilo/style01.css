@@ -92,3 +92,120 @@ main{
     margin-bottom: 30px;
     padding: 10px;
 }
+
+main h2{
+    font-family: var(--fonte-normal);
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-image: linear-gradient(to right, var(--cor3), var(--cor0));
+    text-indent: 8px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+main img{
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main li{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+main  a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--fonte-normal);
+    margin-top: auto;
+}
+
+main a:hover {
+    background-image: 
+    linear-gradient(to right, var(--cor3), var(--cor0));
+    text-indent: 8px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+aside {
+    background-color: var(--cor6);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-height: 500px;
+}
+
+aside {
+    background-color: var(--cor6);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+aside > h3 {
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+aside > h4{
+    color: white;
+    margin: auto;
+    padding: auto;
+    background-color: linear gradient( to right, var(--cor3), var(--cor0) );
+    text-align: center;
+    transition-duration: 0.5s;
+    font-size: 1.2em;
+}
+
+
+aside > h4 a {
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--fonte-normal);
+    transition-duration: 0.5s;
+    font-size: 0.8em;
+    max-width: 500px;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
