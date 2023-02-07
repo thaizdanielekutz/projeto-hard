@@ -30,6 +30,7 @@
 body{
     background-color: white;
     font-family: var(--font-padrão);
+    height: 100%;
 }
 
 header {
@@ -160,4 +161,8 @@ footer{
     font-size: 0.8em;
     padding: 5px;
     margin-bottom: 10px;
+    position: relative;
+    bottom: 0;
+    left:0;
+    width: 100%;
 }
