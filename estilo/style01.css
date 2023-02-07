@@ -173,8 +173,6 @@ aside > h1 {
     padding-bottom: 30px;
     padding-top: 10px;
     text-align: center;
-    margin: auto;
-    padding: auto;
 }
 
 aside > h2 {
@@ -184,6 +182,8 @@ aside > h2 {
     background-color: linear gradient( to right, var(--cor3), var(--cor0) );
     text-align: center;
     transition-duration: 0.5s;
+    margin: auto;
+    padding: auto;
 }
 
 aside > h2 a {
