@@ -192,6 +192,8 @@ aside > h2 a {
     font-weight: bold;
     font-family: var(--fonte-normal);
     transition-duration: 0.5s;
+    font-size: 0.8em;
+    max-width: 500px;
 }
 
 footer{
