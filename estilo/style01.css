@@ -177,15 +177,20 @@ aside > h1 {
 
 aside > h2 {
     color: white;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
     background-color: linear gradient( to right, var(--cor3), var(--cor0) );
+    text-align: center;
 }
 
 aside > h2 a {
     color: white;
     padding: 10px;
     border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
     text-decoration: none;
     font-weight: bold;
     font-family: var(--fonte-normal);
