@@ -178,15 +178,17 @@ aside > h2 {
     margin-right: 50px;
     margin-left: 50px;
     text-align: center;
+    margin: auto;
+    padding: auto;
 }
 
 aside > h2 a {
     color: white;
     padding: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;

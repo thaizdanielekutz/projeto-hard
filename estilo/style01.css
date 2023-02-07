@@ -173,6 +173,8 @@ aside > h1 {
     padding-bottom: 30px;
     padding-top: 10px;
     text-align: center;
+    margin: auto;
+    padding: auto;
 }
 
 aside > h2 {
@@ -189,8 +191,8 @@ aside > h2 a {
     border-radius: 5px;
     margin-left: 100px;
     margin-right: 100px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
     text-decoration: none;
     font-weight: bold;
     font-family: var(--fonte-normal);
