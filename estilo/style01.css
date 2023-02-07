@@ -31,6 +31,7 @@ body{
     background-color: white;
     font-family: var(--font-padrão);
     height: 100%;
+    min-height: 100%;
     min-width: 100%;
     position: relative;
 }
@@ -213,8 +214,10 @@ footer{
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
-    position: relative;
+    position: auto;
     bottom: 0;
     left:0;
     width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
