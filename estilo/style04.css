@@ -1,122 +1,117 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,500;1,600;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,500;1,600;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,500;1,600;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,300;1,500;1,600;1,800;1,900&display=swap");
 
-:root{
-    --cor0: #FA9C00;
-    --cor1: #DE6E00;
-    --cor2: #DE2D00;
-    --cor3: #F55D0D;
-    --cor4: #FA0F00;
-    --cor5: #EB1805;
-    --cor6: #4f545a;
-    
+:root {
+  --cor0: #fa9c00;
+  --cor1: #de6e00;
+  --cor2: #de2d00;
+  --cor3: #f55d0d;
+  --cor4: #fa0f00;
+  --cor5: #eb1805;
+  --cor6: #4f545a;
 
-    --font-padrão: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque:'Bebas Neue';
-    --fonte-normal: 'Nunito Sans';
-    --font-aside: 'Albert Sans';
+  --font-padrão: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque: "Bebas Neue";
+  --fonte-normal: "Nunito Sans";
+  --font-aside: "Albert Sans";
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    background-color: white;
-    font-family: var(--font-padrão);
-    height: 100%;
+body {
+  background-color: white;
+  font-family: var(--font-padrão);
+  min-height: 100vh;
 }
 
 header {
-    background-image: linear-gradient(to bottom,var(--cor4), var(--cor3));
-    min-height: 150px;
-    text-align: center;
-    padding-top: 40px;
+  background-image: linear-gradient(to bottom, var(--cor4), var(--cor3));
+  min-height: 25vh;
+  text-align: center;
+  padding-top: 40px;
 }
 
-header > h1{
-    color: white;
-    font-family: var(--fonte-aside);
-    margin-bottom: 20px;
-    font-size: 3em;
-    font-weight: bolder;
-    text-shadow: 2px  2px 0px rgba(0, 0, 0, 0.11);
+header > h1 {
+  color: white;
+  font-family: var(--fonte-aside);
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: bolder;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.11);
 }
 
-header > p{
-    color: white;
-    font-family: var(--fonte-normal);
-    font-size: 1.2em;
-    max-width: 500px;
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.055);
+header > p {
+  color: white;
+  font-family: var(--fonte-normal);
+  font-size: 1.2em;
+  max-width: 500px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.055);
 }
 
-nav{
-    background-color: var(--cor3);
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+nav {
+  background-color: var(--cor3);
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
 nav > a {
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: var(--fonte-normal);
-    transition-duration: 0.5s;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--fonte-normal);
+  transition-duration: 0.5s;
 }
 
 nav > a:hover {
-    background-color: var(--cor5);
-    color: white;
+  background-color: var(--cor5);
+  color: white;
 }
 
-main{
-    background-color: white;
-    margin: auto;
-    min-width: 300px;
-    max-height: 3500px;
-    margin-bottom: 30px;
-    padding: 10px;
+main {
+  background-color: white;
+  margin: auto;
+  min-width: 300px;
+  max-height: 3500px;
+  padding: 10px;
+  min-height: 55.5vh;
 }
 
-main h2{
-    color: var(--cor5);
-    font-family: var(--fonte-normal);
-    font-weight: bolder;
-    font-size: 1.8em;
-    text-align: center;
-
+main h2 {
+  color: var(--cor5);
+  font-family: var(--fonte-normal);
+  font-weight: bolder;
+  font-size: 1.8em;
+  text-align: center;
 }
 
-main li{
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside; 
-    padding-bottom: 10px;
-    padding-top: 10px;
+main li {
+  list-style-type: "\2714\00A0\00A0";
+  list-style-position: inside;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-
-footer{
-    background-color: var(--cor5);
-    color: white;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
-    margin-bottom: 10px;
-    position: absolute;
-    bottom: 0;
-    left:0;
-    width: 100%;
+footer {
+  background-color: var(--cor5);
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
